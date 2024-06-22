@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 15px;
+  height: auto;
+}
+
+.label-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-label {
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+.search-input,
+.search-button {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.search-button {
+  background-color: pink;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.meal {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 15px;
+  height: auto;
+}
